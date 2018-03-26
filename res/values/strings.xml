@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- アプリのタイトル -->
+    <string name="app_name">EnglishPronunciationQuiz</string>
+
+    <!-- クイズのタイトル -->
+    <string-array name="quiz_menu">
+        <item>[r]と[l]の聞き分け</item>
+        <item>[d]と[t]の聞き分け</item>
+        <item>[p]と[b]の聞き分け</item>
+        <item>[θ]と[s]の聞き分け</item>
+        <item>ライセンス</item>
+    </string-array>
+
+    <!-- クイズゲームのボタンテキスト -->
+    <string name="quiz_button_replay">もう一度聞く</string>
+    <string name="quiz_button_start">スタート</string>
+    <string name="r">r</string>
+    <string name="l">l</string>
+    <string name="d">d</string>
+    <string name="t">t</string>
+
+    <!-- クイズゲームのクイズ番号 -->
+    <string name="quiz_number">Q <xliff:g example="3" id="num">%d</xliff:g>: allow or arrow?</string>
+
+    <!-- クイズゲームの正解率 -->
+    <string name="quiz_correct_ratio">正解率 <xliff:g example="3" id="num">%d</xliff:g>/20</string>
+</resources>

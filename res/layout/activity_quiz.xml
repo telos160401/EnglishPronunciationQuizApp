@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.englishpronunciationquiz.RorLActivity">
+
+    <TextView
+        android:id="@+id/quiz_number"
+        style="@style/QuizNameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="Q16: allow or arrow?" />
+
+    <TextView
+        android:id="@+id/correct_ratio"
+        style="@style/QuizNameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        tools:text="正解率 13/20" />
+
+    <TextView
+        android:id="@+id/marubatu"
+        style="@style/QuizNameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/select_button"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"
+        android:textSize="88sp"
+        android:visibility="invisible"
+        tools:text="〇" />
+
+    <LinearLayout
+        android:id="@+id/select_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_left"
+            style="@style/ButtonStyle"
+            android:layout_marginRight="32dp"
+            tools:text="r" />
+
+        <Button
+            android:id="@+id/button_right"
+            style="@style/ButtonStyle"
+            android:layout_marginLeft="32dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="l" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_replay"
+        style="@style/ButtonStyle"
+        android:layout_below="@+id/select_button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        tools:text="スタート" />
+</RelativeLayout>
