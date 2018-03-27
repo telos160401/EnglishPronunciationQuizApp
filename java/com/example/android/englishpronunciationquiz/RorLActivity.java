@@ -1,4 +1,4 @@
-package com.example.android.englishpronunciationquiz;
+﻿package com.example.android.englishpronunciationquiz;
 
 import android.media.MediaPlayer;
 import android.os.VibrationEffect;
@@ -42,7 +42,7 @@ public class RorLActivity extends AppCompatActivity {
         }
     };
 
-    //以下の英語コメントのメディアプレイヤーの解放用メソッドはUdacityのAndroidコースで提供されたものを使用
+    //以下の英語コメントのメディアプレイヤーの解放用メソッドはUdacityのAndroidコース(https://www.udacity.com/course/android-basics-multiscreen-apps--ud839)で提供されたものを使用
     /**
      * Clean up the media player by releasing its resources.
      */
